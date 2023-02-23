@@ -20,10 +20,32 @@ header {
     border-radius: 10px;
 }
 
+main {
+    height: 100vh;
+}
+
 .chooseGame {
     text-align: center;
     text-transform: capitalize;
     margin-top: 50px;
+}
+
+.imageGame {
+    display: grid;
+    grid-template-areas:
+        "a a"
+        "b b"
+        "c c";
+    gap: 5px;
+    justify-content: center;
+}
+
+div {
+    border: solid 3px black;
+}
+
+div:hover {
+    border: solid 3px yellow;
 }
 
 
