@@ -5,9 +5,12 @@ body {
 }
 
 header {
+    display: flex;
     text-align: center;
+    align-items: center;
     margin-top: 100px;
     text-transform: capitalize;
+    flex-direction: column;
 }
 
 .heading {
@@ -16,8 +19,12 @@ header {
 }
 
 .username {
+    text-align: center;
     border: solid 3px black;
     border-radius: 10px;
+    width: 19rem;
+    height: 2rem;
+
 }
 
 
