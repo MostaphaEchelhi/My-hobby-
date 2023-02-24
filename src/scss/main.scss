@@ -8,7 +8,6 @@ header {
     display: flex;
     text-align: center;
     align-items: center;
-    margin-top: 100px;
     text-transform: capitalize;
     flex-direction: column;
 }
@@ -18,13 +17,22 @@ header {
     font-size: xxx-large;
 }
 
-.username {
+.userName {
     text-align: center;
     border: solid 3px black;
     border-radius: 10px;
     width: 19rem;
     height: 2rem;
 
+}
+
+.randomNameBtn {
+    background-color: dodgerblue;
+    border: solid 3px black;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 
@@ -52,6 +60,9 @@ div:hover {
     border: solid 3px yellow;
 }
 
+div:active {
+    border: solid 3px yellow;
+}
 
 footer {
     position: absolute;
