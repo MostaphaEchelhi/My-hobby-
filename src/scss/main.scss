@@ -1,28 +1,28 @@
-body{
+body {
     margin:0;
     padding:0;
     background-color:bisque
 }
 
-header{
+header {
     display:flex;
     text-align:center;
     align-items:center;
     text-transform:capitalize;
     flex-direction:column
 }
-.heading{
+.heading {
     font-family:fantasy;
     font-size:xxx-large
 }
-.userName{
+.userName {
     text-align:center;
     border:solid 3px #000;
     border-radius:10px;
     width:19rem;
     height:2rem
 }
-.randomNameBtn{
+.randomNameBtn {
     background-color:#1e90ff;
     border:solid 3px #000;
     border-radius:10px;
@@ -30,12 +30,16 @@ header{
     margin-top:15px;
     cursor:pointer
 }
-.chooseGame{
+
+.randomNameBtn:hover {
+    background-color: green;
+}
+.chooseGame {
     text-align:center;
     text-transform:capitalize;
     margin-top:50px
 }
-.imageGame{
+.imageGame {
     display:grid;
     grid-template-areas:"a a" "b b" "c c";
     gap:5px;
@@ -44,16 +48,16 @@ header{
 .imagecontent {
     cursor: pointer;
 }
-div{
+div {
     border:solid 3px #000
 }
-div:hover{
+div:hover {
     border:solid 3px #ff0
 }
-div:active{
+div:active {
     border:solid 3px #ff0
 }
-footer{
+footer {
     position:absolute;
     bottom:0;width:100vw;
     background-color:#000;
@@ -61,17 +65,17 @@ footer{
     text-align:center;
     text-transform:capitalize
 }
-span{
+span {
     gap:10px
 }
-.add{
+.add {
     display:none
 }
-.add1{
+.add1 {
     display:none
 }
-@media screen and (min-width: 1400px){
-    .add{
+@media screen and (min-width: 1400px) {
+    .add {
         display:block;
         position:absolute;
         left:0;
@@ -80,7 +84,7 @@ span{
         height:90vh;border:solid 3px #000;
         margin:20px
     }
-    .add1{
+    .add1 {
         display:block;
         position:absolute;
         right:0;
