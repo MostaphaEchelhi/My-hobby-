@@ -1,83 +1,92 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: bisque;
+body{
+    margin:0;
+    padding:0;
+    background-color:bisque
 }
 
-header {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    text-transform: capitalize;
-    flex-direction: column;
+header{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    text-transform:capitalize;
+    flex-direction:column
 }
-
-.heading {
-    font-family: fantasy;
-    font-size: xxx-large;
+.heading{
+    font-family:fantasy;
+    font-size:xxx-large
 }
-
-.userName {
-    text-align: center;
-    border: solid 3px black;
-    border-radius: 10px;
-    width: 19rem;
-    height: 2rem;
-
+.userName{
+    text-align:center;
+    border:solid 3px #000;
+    border-radius:10px;
+    width:19rem;
+    height:2rem
 }
-
-.randomNameBtn {
-    background-color: dodgerblue;
-    border: solid 3px black;
-    border-radius: 10px;
-    text-transform: capitalize;
-    margin-top: 15px;
-    cursor: pointer;
+.randomNameBtn{
+    background-color:#1e90ff;
+    border:solid 3px #000;
+    border-radius:10px;
+    text-transform:capitalize;
+    margin-top:15px;
+    cursor:pointer
 }
-
-
-.chooseGame {
-    text-align: center;
-    text-transform: capitalize;
-    margin-top: 50px;
+.chooseGame{
+    text-align:center;
+    text-transform:capitalize;
+    margin-top:50px
 }
-
-.imageGame {
-    display: grid;
-    grid-template-areas:
-        "a a"
-        "b b"
-        "c c";
-    gap: 5px;
-    justify-content: center;
+.imageGame{
+    display:grid;
+    grid-template-areas:"a a" "b b" "c c";
+    gap:5px;
+    justify-content:center
 }
-
-div {
-    border: solid 3px black;
+div{
+    border:solid 3px #000
 }
-
-div:hover {
-    border: solid 3px yellow;
+div:hover{
+    border:solid 3px #ff0
 }
-
-div:active {
-    border: solid 3px yellow;
+div:active{
+    border:solid 3px #ff0
 }
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    background-color: #000;
-    color: white;
-    text-align: center;
-    text-transform: capitalize;
+footer{
+    position:absolute;
+    bottom:0;width:100vw;
+    background-color:#000;
+    color:#fff;
+    text-align:center;
+    text-transform:capitalize
 }
-
-span {
-    gap: 10px;
+span{
+    gap:10px
 }
-
+.add{
+    display:none
+}
+.add1{
+    display:none
+}
+@media screen and (min-width: 1400px){
+    .add{
+        display:block;
+        position:absolute;
+        left:0;
+        top: 0;
+        max-width:500px;
+        height:90vh;border:solid 3px #000;
+        margin:20px
+    }
+    .add1{
+        display:block;
+        position:absolute;
+        right:0;
+        top: 0;
+        max-width:500px;
+        height:90vh;
+        border:solid 3px #000;
+        margin:20px}
+    }
 
 
 
