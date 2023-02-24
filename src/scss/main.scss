@@ -39,7 +39,10 @@ header{
     display:grid;
     grid-template-areas:"a a" "b b" "c c";
     gap:5px;
-    justify-content:center
+    justify-content:center;
+}
+.imagecontent {
+    cursor: pointer;
 }
 div{
     border:solid 3px #000
